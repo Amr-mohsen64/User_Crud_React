@@ -34,7 +34,7 @@ export default function ErrorModal(props) {
                 title={props.title}
                 message={props.message}
                 onConfirm={props.onConfirm}
-            />, document.getElementById("backdrop-root"))}
+            />, document.getElementById("overlay-root"))}
 
         </>
     )
